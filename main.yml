@@ -1,0 +1,11 @@
+--- 
+  - name: "checking"
+    hosts: 172.31.18.80
+    remote_user: ravi
+    tasks:
+    
+    - name: "Just small command"
+      shell: "cd /home ; ls -lrt ; whoami"
+      register: output
+      
+    - debug: var=output.stdout_lines
