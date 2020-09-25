@@ -5,7 +5,7 @@
     tasks:
     
     - name: "Just small command"
-      shell: "cd /home ; ls -lrt ; whoami"
+      shell: "cd /etc ; ls -lrt ; whoami"
       register: output
       
     - debug: var=output.stdout_lines
