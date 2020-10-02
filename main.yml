@@ -1,7 +1,7 @@
 --- 
   - name: "checking"
     hosts: Test
-    remote_user: ravi
+#    remote_user: ravi
     tasks:
     
     - name: "Just small command"
