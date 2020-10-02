@@ -1,7 +1,7 @@
 --- 
   - name: "checking"
     hosts: Test
-    remote_user: Jenkins
+    remote_user: ravi
     gather_facts: false
     tasks:
     
