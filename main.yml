@@ -1,7 +1,7 @@
 --- 
   - name: "checking"
     hosts: Test
-    remote_user: divi
+    remote_user: test
     gather_facts: false
     tasks:
     
